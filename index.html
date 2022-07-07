@@ -1,98 +1,640 @@
-<!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progate</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <link rel="stylesheet" type="text/css" href="responsive.css">
-  <link rel="shortcut icon" href="favicon.ico" >
-  <!--     ┬ ┬┌─┐  ┌─┐┬─┐┌─┐        -->
-  <!--     │││├┤   ├─┤├┬┘├┤         -->
-  <!--     └┴┘└─┘  ┴ ┴┴└─└─┘        -->
-  <!--     ╔═╗╦═╗╔═╗╔═╗╔═╗╔╦╗╔═╗    -->
-  <!--     ╠═╝╠╦╝║ ║║ ╦╠═╣ ║ ║╣     -->
-  <!--     ╩  ╩╚═╚═╝╚═╝╩ ╩ ╩ ╚═╝    -->
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"NewsGoth BT";}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
 </head>
-<body>
-    <header>
-      <div class="container">
-        <div class="header-left">
-          <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
-        </div>
-        <span class="fa fa-bars menu-icon"></span>
-        <div class="header-right">
-          <a href="#">Lessons</a>
-          <a href="#">Sign in</a>
-          <a href="#" class="login">Log in</a>
-        </div>
-      </div>
-    </header>
-    <div class="top-wrapper">
-      <div class="container">
-        <h1>LEARN TO CODE.</h1>
-        <h1>LEARN TO BE CREATIVE.</h1>
-        <p>Progate is a web service where you can learn programming online.</p>
-        <p>We offer you a fully equipped coding environment to get you started.</p>
-        <div class="btn-wrapper">
-          <a href="#" class="btn signup">Sign up with Email</a>
-          <p>or</p>
-          <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Sign up with Facebook</a>
-          <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Sign up with Twitter</a>
-        </div>
-      </div>
-    </div>
-    <div class="lesson-wrapper">
-      <div class="container">
-        <div class="heading">
-          <h2>Learn Where to Get Started!</h2>
-        </div>
-        <div class="lessons">
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/html.png">
-              <p>HTML & CSS</p>
-            </div>
-            <p class="text-contents">Languages used to build and design the appearances of your websites. HTML adds the structure, and CSS styles it.</p>
-          </div>
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-              <p>jQuery</p>
-            </div>
-            <p class="text-contents">A fast, feature-rich and easy-to-use JavaScript library that handles animations and Ajax requests.</p>
-          </div>
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/ruby.png">
-              <p>Ruby</p>
-            </div>
-            <p class="text-contents">A dynamic, general-purpose language that is simple and productive. It is commonly used around the world to build web applications.</p>
-          </div>
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/php.png">
-              <p>PHP</p>
-            </div>
-            <p class="text-contents">An open source scripting language that can be embedded into HTML, and well suited for web development.</p>
-          </div>
-          <div class="clear"></div>
-        </div>
-      </div>
-    </div>
-    <div class="message-wrapper">
-      <div class="container">
-        <div class="heading">
-          <h2>Ready to become an awesome programmer?</h2>
-          <h3>Let's learn to code, learn to be creative!</h3>
-        </div>
-        <span class="btn message">Start Learning</span>
-      </div>
-    </div>
-    <footer>
-      <div class="container">
-        <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-        <p>Learn to code, learn to be creative.</p>
-      </div>
-    </footer>
+
+<body lang=EN-IN link=blue vlink="#954F72" style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Shashi
+Narayan</span></b></p>
+
+
+<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US style='font-size:
+12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Assistant
+Professor</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US style='font-size:
+12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Department of
+Civil Engineering </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US style='font-size:
+12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>National
+Institute of Technology, Uttarakhand</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US style='font-size:
+12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>E-mail:
+shashi@nituk.ac.in </span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>                                                   </span></p>
+
+<p class=MsoNormal style='text-align:justify'><b><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Academic
+Qualification</span></b></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:36.0pt;text-align:justify'><span lang=EN-US style='font-size:12.0pt;
+line-height:107%;font-family:"NewsGoth BT",sans-serif'>Ph. D., Malaviya
+National Institute of Technology, Jaipur, 2019.</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:36.0pt;text-align:justify'><span lang=EN-US style='font-size:12.0pt;
+line-height:107%;font-family:"NewsGoth BT",sans-serif'>M. Sc.(Engg.) Structures
+From Indian Institute of Science, Bengaluru, 2013</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>B.
+Tech. (Civil Engineering) From Malaviya National Institute of Technology,
+Jaipur, 2010.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><b><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Teaching
+Experience</span></b></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:36.0pt;text-align:justify'><span lang=EN-US style='font-size:12.0pt;
+line-height:107%;font-family:"NewsGoth BT",sans-serif'>Assistant Professor
+Grade-II in the Department of Civil Engineering, National Institute of
+Technology Uttarakhand, Srinagar (Garhwal) since 2014.</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Assistant
+Professor in the Department of Civil Engineering, Manipal University Jaipur during
+2013-2014.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><b><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Publications</span></b></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"NewsGoth BT",sans-serif'>S. Narayan, M. K. Shrimali, S. D. Bharti,
+T.K. Datta, “Effects of mainshock-aftershocks sequence on the performance of
+steel building frames”. International Journal of steel structures (under
+review).</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>S.
+Narayan, M. K. Shrimali, S.D. Bharti, T.K. Datta, “Retrofitting of building
+frames for enhanced performance under a sequence of aftershocks”. Journal of
+Earthquake engineering (under review).</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"NewsGoth BT",sans-serif'>Nishant, Himanshu, A. Tiwari and S.
+Narayan; “Mix design of self compacting concrete using lime” ,UCC2019, Paper id
+146/2019.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>S.
+Narayan, M. K. Shrimali, S.D. Bharti and T.K. Datta, “Performance of
+retrofitted building under the sequence of mainshock and aftershocks&quot;
+Sixteen Symposium on Earthquake Engineering by IIT Roorkee at Roorkee / paper
+id 211/ 2018</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>5.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"NewsGoth BT",sans-serif'>S. Narayan, M. K. Shrimali, S.D. Bharti,
+T.K. Datta, “Collapse of damaged steel building frames because of earthquakes”.
+Journal of Performance of Constructed Facilities, 32 (1), 04017128., </span><span
+class=MsoHyperlink><i><span lang=EN-US style='font-size:9.0pt;line-height:107%;
+font-family:"Arial",sans-serif;color:#235ABF;background:white'>https://doi.org/10.1061/(ASCE)CF.1943-5509.0001125</span></i></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>6.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>T.
+Khati, S. Kaloni and S. Narayan, “Dynamic Analysis of Water Tank.” Advances in
+Construction Materials and Structures (ACMS-2018), IIT Roorkee, A-166.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>7.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"NewsGoth BT",sans-serif'>A. Kumar and S. Narayan, “Seismic
+Performance of Steel Frame Designed using Energy Method. “International
+Conference on Composite Materials and Structures (ICCMS-2017), Hyderabad,
+pp.713-722.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>8.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>A.
+Kumar and S. Narayan, “A New Energy Based Seismic Design Method for steel
+Moment Resisting Multi-Storey Multi-Bay Frame.” Conference on Infrastructure
+Sustainability in Hilly Regions (CISHR-2017) NIT Uttarakhand, pp. 55-63. </span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-top:12.0pt;text-align:justify;
+text-indent:-18.0pt'><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"NewsGoth BT",sans-serif'>9.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"NewsGoth BT",sans-serif'>S. Narayan, M. K. Shrimali, S.D. Bharti,
+T.K. Datta, &quot;Progressive Collapse of Damaged Structures Under Seismic
+Excitation&quot; Sixteen World Conference on Earthquake Engineering by IEA at
+Santigi, Chile / 1-12 / 2017</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>10.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>S
+Narayan, M K Shrimali, SD Bharti and TK Datta, &quot;Seismic Behavior of
+Damaged Building Under Second Episode of Earthquake&quot; 10th Structural
+Engineering Convention by SERC CSIR Chennai at Chennai / 1164-1169 / 2016</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>11.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>G
+Devaraj, S Narayan and D Roy, 2014, “A smooth discretization bridging finite
+element and mesh-free methods using polynomial reproducing simplex splines”,
+Computer Modeling in Engineering and Sciences, Vol. 102, pp. 1-54. </span><span
+lang=EN-US><a href="https://www.techscience.com/CMES/v102n1/27086"><i><span
+style='font-size:9.0pt;line-height:107%;font-family:"Arial",sans-serif;
+color:#235ABF;background:white'>doi:10.3970/cmes.2014.102.001</span></i></a></span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>12.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>D
+Roy and S Narayan, 2011, “A smooth DMS-FEM formulation for Mindlin plate
+bending problems”, Proceedings of RACE-2011, IT Varanasi (Keynote Address), pp.
+7-12.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><b><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Project
+Supervision</span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:18.0pt'><b><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>At
+Masters level</span></b></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"NewsGoth BT",sans-serif'>A study on lateral strength of CFS wood 
+sheathed shear wall panel under static loads</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>A
+comparative study of standards for wind and snow loads on transmission line system</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"NewsGoth BT",sans-serif'>Effect of Wind on Transmission Towers</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Effect
+of Wind on Tower Including Soil Structure Interaction</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>5.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"NewsGoth BT",sans-serif'>Damage Detection in High Rise Building
+using Nonparametric System Identification Techniques</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>6.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Effect
+of Material Nonlinearity on Modelling of Steel Frames.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>7.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"NewsGoth BT",sans-serif'>Energy based Design of steel structures.</span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>8.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Dynamic
+Analysis of Elevated Circular Water Tank.</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:18.0pt'><b><span
+lang=EN-US style='font-family:"NewsGoth BT",sans-serif'>At Undergraduate Level</span></b></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"NewsGoth BT",sans-serif'>Classifications of steel beam sections
+(Completed).</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Analysis
+of circular water tank using ABAQUS Software (Completed).</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"NewsGoth BT",sans-serif'>Analysis of ground water tank using
+ABAQUS software (Completed).</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Design
+of Self Compacting Concrete (Completed).</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>5.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"NewsGoth BT",sans-serif'>Behavior of buildings under earthquake
+using open sees. (Completed).</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>6.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Design
+of 3 storey concrete building using Microsoft Excel (Completed).</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>7.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"NewsGoth BT",sans-serif'>Design of Steel buildings using Staad Pro
+(Completed).</span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>8.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Desilting
+Analysis in Tunneling and Pressure measures. (Completed)</span></p>
+
+<p class=MsoNormal style='text-align:justify'><b><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Professional
+and Administrative Activities</span></b></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Member,
+Senate Undergraduate Board (SUGB), NIT Uttarakhand, Since Feb 2018. </span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Convener,
+Department Undergraduate Committee (DUGC), Department of Civil Engineering, NIT
+Uttarakhand, since Feb 2018.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Member,
+Department Postgraduate Committee (DPGC), Department of Civil Engineering, NIT
+Uttarakhand, since Feb 2018.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Member
+Grade Moderation Committee (Odd 2018, Even2019).</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Lab
+in Charge Structural Analysis Lab, Department of Civil Engineering, National
+Institute of Technology Uttarakhand since 2017.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>In-Charge
+Canteen, National Institute of Technology Uttarakhand July 2018-Jan 2019. </span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Assistant
+Warden, National Institute of Technology Uttarakhand July 2017-July 2018</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Co-Chairperson,
+Sports, National Institute of Technology Uttarakhand 2016-17. </span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Placement
+Coordinator, Department of Civil Engineering, National Institute of Technology
+Uttarakhand since 2016.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Lab
+in Charge Surveying Lab, Department of Civil Engineering, National Institute of
+Technology Uttarakhand since 2014-2017.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>In
+charge Construction, National Institute of Technology Uttarakhand during
+2014-2015 &amp; 2016.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>In
+charge Examination, Department of Civil Engineering during Jan 2015-July 2015.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>In
+charge Class Time Table, Department of Civil Engineering during Jan 2015-July
+2015.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Head
+of Department, Department of Civil Engineering, National Institute of
+Technology Uttarakhand during 2014-2015.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Member,
+library committee, NIT Uttarakhand from July 2014 to July 2015</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Nodal
+officer, Credit Exchange Program, Malaviya National Institute of Technology,
+Jaipur.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Convener,
+Seating Arrangement Committee, First Convocation, National Institute of
+Technology Uttarakhand. </span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Faculty
+Advisor, Students society, Department of Civil Engineering, National Institute
+of Technology Uttarakhand. </span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Faculty
+Advisor of students in each Semester.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Faculty
+In charge Help Center CSAB-2015</span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt'><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Faculty
+In charge CCMT-2016</span></p>
+
+<p class=MsoNormal style='text-align:justify'><b><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Short
+Term Training Program/Workshop attended and Conferences Organized</span></b></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-align:justify;text-indent:-18.0pt;
+line-height:115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"NewsGoth BT",sans-serif'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"NewsGoth BT",sans-serif'>Attended Workshop on Intellectual
+property rights and technology transfer, May 11 -15, 2019, NIT Uttarakhand
+Satellite Campus, Jaipur</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt;
+line-height:115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"NewsGoth BT",sans-serif'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"NewsGoth BT",sans-serif'>Attended Short Term Training Program on
+advance structural analysis and finite element methods, 08th -12th April 2019,
+National Centre for Disaster Mitigation &amp; Management, MNIT Jaipur.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt;
+line-height:115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"NewsGoth BT",sans-serif'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"NewsGoth BT",sans-serif'>Organized International Conference on
+Advances in Computing Application (ICACA) February 2018, NIT Uttarakhand, India
+as member</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt;
+line-height:115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"NewsGoth BT",sans-serif'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"NewsGoth BT",sans-serif'>Organized conference on infrastructure
+sustainability in hilly regions (CISHR) December 2017, NIT Uttarakhand, India
+as member</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt;line-height:
+115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:
+"NewsGoth BT",sans-serif'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"NewsGoth BT",sans-serif'>Attended Modern pedagogy techniques to
+enhance teaching skills, July 24-28, 2017, National Institute of Technology,
+Uttarakhand.</span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt;line-height:115%'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"NewsGoth BT",sans-serif'>6.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"NewsGoth BT",sans-serif'>Attended
+a five days online training programs on “Seismic Isolation of Structures”
+organized by TEQIP IIT Bombay </span></p>
+
+<p class=MsoNormal style='text-align:justify'><b><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Outreach
+Activities</span></b></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"NewsGoth BT",sans-serif'>Delivered a Keynote Lectures at National
+Conference on smart Infrastructures and Environment, Poornima Institute of
+Engineering &amp; Technology, Jaipur.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Nodal
+Officer for Credit Exchange Program, Malaviya National Institute of Technology,
+Jaipur.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"NewsGoth BT",sans-serif'>Delivered Expert Lecture on “Parallel
+Computing using MATLAB” during <i>STTP on MATLAB &amp; LabVIEW: Application in
+Engineering &amp; Sciences</i> from 20<sup>th</sup> January 2020 to 24<sup>th</sup>
+January 2020 at NIT Uttarakhand.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Delivered
+Expert Lecture on “Seismic Analysis of Building Frames” During <i>FDP on
+Materials, Analysis &amp;Repair of Structures</i> from 07<sup>th</sup> September
+to 12<sup>th</sup> September in Online mode at Government Engineering College
+Bharatpur.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>5.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"NewsGoth BT",sans-serif'>Delivered Expert Lecture on “Modelling of
+Tunnels in OpenSees” During a <i>STTP on</i> <i>Metro-Rail Construction and
+Management</i> from 14<sup>th</sup> December 2020 to 18<sup>th</sup> December
+2020 in Online mode at SVNIT Surat.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>6.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Delivered
+Expert Lecture on “Energy Based Design of Steel MRF” During a <i>STTP on</i> <i>Advanced
+Design of Steel Structures</i> from 21<sup>st</sup> December 2020 to 25<sup>th</sup>
+December 2020 in Online mode at SVNIT Surat.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>7.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"NewsGoth BT",sans-serif'>Delivered Expert Lecture on “Plastic
+Analysis of Building Frames” During a <i>FDP on Design &amp; Analysis of
+Building Structure by using Extended Three-Dimensional Analysis of Building
+System (ETABS)</i> from 21<sup>st</sup> December 2020 to 25<sup>th</sup>
+December 2020 in Online mode at, Poornima Institute of Engineering &amp;
+Technology, Jaipur.</span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-align:justify;text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>8.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"NewsGoth BT",sans-serif'>Delivered
+Expert Lecture on “Behavior of Building Frames During an Earthquake” During a <i>STC
+on Analysis and Design of Structures: Practices and Challenges</i> from 15<sup>th</sup>
+February to 19th February 2021 in Online mode at, National Institute of
+Technology, Jalandhar.</span></p>
+
+</div>
+
+</body>
+
+</html>
